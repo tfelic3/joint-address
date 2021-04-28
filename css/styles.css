@@ -129,16 +129,25 @@ h3{
 
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 500px) {
 
+  
+  h4{
+    display: none;
+  }
 
+  .slideshow-container {
+    max-width: 1000px;
+    height: auto;
+   display:flex;
+    margin: auto;
+  }
   .text{
-    font-size: .9em !important;
-    position: absolute;
-    padding: 0px 0px;
-  bottom: 1px !important;
+    font-size: .6em;;
   width: 100%;
-  background-color: black !important;
+  position: absolute;
+  bottom: 1px;
+  width: 100%;
   opacity: .8;
   }
 

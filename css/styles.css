@@ -130,13 +130,12 @@ h3{
 }
 
 @media only screen and (max-width: 450px) {
-  body {
-    font-size: 1em;
-  }
+
 
   .text{
     font-size: .9em;
     position: absolute;
+    padding: 0px 0px;
   bottom: 1px;
   width: 100%;
   background-color: #bbb;
